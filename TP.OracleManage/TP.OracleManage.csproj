@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.1.1</Version>
+    <Authors>fire tp</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageReadmeFile>OracleManage.md</PackageReadmeFile>
+    <description>Oracle 连接数据库操作类《nuget官网搜索TP.OracleManage查看readme.md详细解析》</description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.130" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\OracleManage.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

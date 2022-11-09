@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.0.2</Version>
+    <Authors>fire tp</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageReadmeFile>FileConfigHandle.md</PackageReadmeFile>
+    <description>读取文件配置类 App.config 中的内容《nuget官网搜索TP.FileConfigHandle查看readme.md详细解析》</description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\FileConfigHandle.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.0.9</Version>
+    <Authors>fire tp</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageReadmeFile>TP.DateFormat.md</PackageReadmeFile>
+    <description>时间控件类库，简化时间运算操作时间《nuget官网搜索TP.DateFormat查看readme.md详细解析》</description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\TP.DateFormat.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  
+ 
+</Project>

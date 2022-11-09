@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.0.3</Version>
+    <Authors>fire tp</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageReadmeFile>FileManage.md</PackageReadmeFile>
+    <description>文件管理类库，进行一些简单的文件操作《nuget官网搜索TP.FileManage查看readme.md详细解析》</description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\TP\nugetUp\TP.DateFormat\TP.FileManage\TP.FileManage.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\FileManage.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

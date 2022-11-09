@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>1.0.1</Version>
+    <Authors>fire tp</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageReadmeFile>StringFormat.md</PackageReadmeFile>
+    <description>对字符串的一些简单常规操作《nuget官网搜索TP.StringFormat查看readme.md详细解析》</description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\StringFormat.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
